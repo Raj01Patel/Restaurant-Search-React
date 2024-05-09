@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    text-align: center;
+}
+
+.main-container input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.res-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    line-height: 30px;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.res-div{
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(243, 240, 226);
+}
